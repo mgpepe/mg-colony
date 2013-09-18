@@ -1,0 +1,46 @@
+<amenties>
+	<foto>
+		<src>1.jpg</src>
+		<texto>Corner of St. Nicolas Avenue &amp;  Troutman Street</texto>
+	</foto>
+	<foto>
+		<src>2.jpg</src>
+		<texto>Corner of Wyckoff Avenue &amp; Troutman Street</texto>
+	</foto>
+	<foto>
+		<src>3.jpg</src>
+		<texto>Corner of Central Avenue &amp; Willoughby Street</texto>
+	</foto>
+	<foto>
+		<src>4.jpg</src>
+		<texto>Corner of Troutman Street &amp; Cypress Avenue</texto>
+	</foto>
+	<foto>
+		<src>5.jpg</src>
+		<texto>Corner of Flushing Avenue &amp; Vandervoort Place</texto>
+	</foto>
+	<foto>
+		<src>6.jpg</src>
+		<texto>Corner of Stanhope Street &amp; Irving Avenue</texto>
+	</foto>
+	<foto>
+		<src>7.jpg</src>
+		<texto>Corner of Morgan Avenue &amp; Thames Street</texto>
+	</foto>
+	<foto>
+		<src>8.jpg</src>
+		<texto>Corner of Troutman Street &amp; Cypress Avenue</texto>
+	</foto>
+	<foto>
+		<src>9.jpg</src>
+		<texto>Corner of Myrtle Avenue &amp; Himrod Street</texto>
+	</foto>
+	<foto>
+		<src>10.jpg</src>
+		<texto>Corner of Wilson Avenue &amp; Knoll Street</texto>
+	</foto>
+	<foto>
+		<src>11.jpg</src>
+		<texto>Corner of Troutman Street &amp; Scott Avenue</texto>
+	</foto>
+</amenties>

@@ -1,0 +1,34 @@
+<home>
+	<foto>
+		<src>medio/1.jpg</src>
+		<texto>Corner of St. Nicolas Avenue &amp;  Troutman Street</texto>
+	</foto>
+	<foto>
+		<src>medio/2.jpg</src>
+		<texto>Corner of Wyckoff Avenue &amp; Troutman Street</texto>
+	</foto>
+	<foto>
+		<src>medio/3.jpg</src>
+		<texto>Corner of Central Avenue &amp; Willoughby Street</texto>
+	</foto>
+	<foto>
+		<src>medio/4.jpg</src>
+		<texto>Corner of Stanhope Street &amp; Irving Avenue</texto>
+	</foto>
+	<foto>
+		<src>medio/5.jpg</src>
+		<texto>Corner of Morgan Avenue &amp; Thames Street</texto>
+	</foto>
+	<foto>
+		<src>medio/6.jpg</src>
+		<texto>Corner of Troutman Street &amp; Cypress Avenue</texto>
+	</foto>
+	<foto>
+		<src>medio/7.jpg</src>
+		<texto>Corner of Wilson Avenue &amp; Knoll Street</texto>
+	</foto>
+	<foto>
+		<src>medio/8.jpg</src>
+		<texto>Corner of Troutman Street &amp; Scott Avenue</texto>
+	</foto>
+</home>

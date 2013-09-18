@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* CSS Document */
+/* Tipografia -----------------------------------------------------------*/
+@font-face {
+	font-family: 'miHelveticaNeueCondensed';
+	src: url('fonts/Helvetica-Neue-Condensed-Black_0.ttf'),
+    url('fonts/Helvetica-Neue-Condensed-Black_0.eot'); /* IE9 */
+}
+
+@font-face {
+	font-family: 'miHelveticaNeue';
+	src: url('fonts/Helvetica-Neue.ttf'),
+    url('fonts/Helvetica-Neue.eot'); /* IE9 */
+}
+
+@font-face {
+font-family: 'HelveticaConthRegular';
+    src: url('fonts/helveticacon.eot');
+    src: url('fonts/helveticacon.eot') format('embedded-opentype'),
+         url('fonts/helveticacon.woff') format('woff'),
+         url('fonts/helveticacon.ttf') format('truetype'),
+         url('fonts/helveticacon.svg#HelveticaConthRegular') format('svg');+
+}
+
+@font-face {
+font-family: 'HelveticaConthBold';
+    src: url('fonts/helvetica-neue-condensed-black.eot');
+    src: url('fonts/helvetica-neue-condensed-black.eot') format('embedded-opentype'),
+         url('fonts/helvetica-neue-condensed-black.woff') format('woff'),
+         url('fonts/helvetica-neue-condensed-black.ttf') format('truetype'),
+         url('fonts/helvetica-neue-condensed-black.svg#HelveticaConthBold') format('svg');+
+}
+@font-face {
+font-family: 'futura_book';
+    src: url('fonts/futura-book.eot');
+    src: url('fonts/futura-book.eot') format('embedded-opentype'),
+         url('fonts/futura-book.woff') format('woff'),
+         url('fonts/futura-book.ttf') format('truetype'),
+         url('fonts/futura-book.svg#futura_book') format('svg');+
+}
+/* pagina general ---------------------------------------------------------------*/
+body{
+	padding:0px;
+	margin:0px;
+	width: 100%;
+	height: 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color:#000;
+}
+
+#content{
+	margin:0 auto;
+	width:100%;
+	height:831px;
+}
+
+/* Content ---------------------------------------------------------------*/
+article{
+	width:100%;
+	height:670px;
+	float:left;
+	margin:0 auto;
+}
+
+article a{
+	color:#FBE82E; 
+	font-family:miHelveticaNeueCondensed, sans-serif;
+	font-size:14px;
+	text-decoration:none;
+}
+
+#flechaIzq{
+	float:left;
+	border:0px;
+	width: 77px;
+	height: 76px;
+	margin:260px 0px 0px 7%;
+}
+#flechaDer{
+	float:right;
+	border:0px;
+	margin:260px 7% 0px 0px;
+}
+
+#welcome {
+	float:left;
+	border:0px;
+	color: #FFF;
+	width: 607px;
+	height: 428px;
+	margin:230px 0px 0px 100px;
+	background: url(img/welcome.png) no-repeat;
+}
+
+#gracias {
+	color:#FFE92F; 
+	font-family: 
+	futura_book; 
+	font-size: 15px;
+	margin-top: 70px;
+	margin-bottom: 133px;
+}
+
+#formulario{
+	background: rgba(0, 0, 0, 0.5);
+	width:272px;
+	height:660px;
+	margin-right:13px;
+	float:right;
+	text-align:center;
+}
+
+.logo{
+	margin-top:25px;
+}
+
+h1{
+	margin-top:40px;
+	font-family:futura_book;
+	font-size:29px;
+	color:#FFF;
+	font-weight:normal;
+}
+h2{
+	margin-top:21px;
+	font-family:futura_book;
+	font-size:12px;
+	line-height:12px;
+	padding-left:8px;
+	padding-right:8px;
+	color:#FFF;
+	font-weight:normal;
+}
+.formu{
+	color:#4C5962;
+	font-family:Arial;
+	margin-top:42px;
+}
+.campo{
+	margin-top:10px;
+	font-size:10px;
+	width:160px;
+	clear:both;
+}
+.room{
+	font-family:Arial;
+	margin-top:10px;
+	float:left;
+	clear:both;
+	font-size:11px;
+	color:#FFF;
+	margin-left:50px;
+}
+.submit{
+	background-color:#FFE92F;
+	width:100%;
+	height: 38px;
+	font-family:miHelveticaNeueCondensed, Serif;
+	letter-spacing:2px;
+	font-weight:regular;
+	color:#4C5962;
+	margin-top:27px;
+	text-align:center;
+	clear:both;
+}
+.submit a{
+	font-size:25px;
+	line-height:38px;
+	color:#4C5962;
+	text-decoration: none;
+}
+.submit a:hover{
+	color:#4C5962;
+	text-decoration: none;
+}
+.rebny{
+	float:right;
+	margin-right:20px;
+	margin-top:11px;
+}
+
+/* Footer ------------------------------------------------------------------*/
+footer{
+	width:100%;
+	height:60px;
+	padding:0px;
+	margin:0 auto;
+	margin-top:20px;
+	clear:both;
+	vertical-align:central;
+}
+#iconos{
+	width:300px;
+	margin-left: 7%;
+	float:left;
+}
+
+#btnFotosFondo{
+	height:50px;
+	margin-right:13%;
+	float:right;
+	text-align:right;	
+}
+
+#btnFotosFondo img{
+	padding-left:5px;	
+}
+
+.creditos{
+	color:#FFFFFF; 
+	font-family:miHelveticaNeue, sans-serif;
+	font-size:12px;
+	margin:0;
+	padding:0;
+}
+
+@media screen and (max-width: 1024px) {
+	/*
+		Acá tiene que levantar las imagenes medianas
+	}*/
+	#btnFotosFondo{
+		margin-right:16%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	#formulario{
+		margin: 0 auto;
+		float:none;
+	}
+
+	#welcome {
+		border:0px;
+		float: right;
+		width: 100%; 
+		display: none;
+		background: url(img/welcome_640.png) no-repeat;
+	}
+	
+	#btnFotosFondo{
+		margin-right:7%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#formulario{
+		margin: 0 auto;
+		float:none;
+	}
+
+	#welcome {
+		border:0px;
+		float: right;
+		width: 100%; 
+		display: none;
+		background: url(img/welcome_640.png) no-repeat;
+	}
+	
+	#btnFotosFondo{
+		margin-right:7%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	/*
+		Acá tiene que levantar las imagenes chicas
+	}*/
+	
+	#formulario{
+		margin: 0 auto;
+	}
+
+	#welcome {
+		border:0px;
+		float: right;
+		width: 100%; 
+		display: none;
+		background: url(img/welcome_640.png) no-repeat;
+	}
+	
+	#flechaIzq{
+		display:none;
+	}
+	#flechaDer{
+		display:none;
+	}
+	footer{
+		width:300px;
+		height:120px;
+		margin:0 auto;
+	}
+	#btnFotosFondo{
+		float:none;
+		clear:both;
+		margin: 0 auto;
+		text-align:center;
+	}
+	.creditos{
+		text-align:center;
+	}
+	#iconos{
+		float:none;
+		clear:both;
+		text-align:center;
+		margin: 0 auto;
+		margin-top:20px;
+	}
+}
