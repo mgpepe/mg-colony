@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* CSS Document */
+/* Tipografia -----------------------------------------------------------*/
+@font-face {
+	font-family: 'miHelveticaNeueCondensed';
+	src: url('/fonts/Helvetica-Neue-Condensed-Black_0.ttf'),
+    url('/fonts/Helvetica-Neue-Condensed-Black_0.eot'); /* IE9 */
+}
+
+@font-face {
+	font-family: 'miHelveticaNeue';
+	src: url('/fonts/Helvetica-Neue.ttf'),
+    url('/fonts/Helvetica-Neue.eot'); /* IE9 */
+}
+
+@font-face {
+font-family: 'HelveticaConthRegular';
+    src: url('/fonts/helveticacon.eot');
+    src: url('/fonts/helveticacon.eot') format('embedded-opentype'),
+         url('/fonts/helveticacon.woff') format('woff'),
+         url('/fonts/helveticacon.ttf') format('truetype'),
+         url('/fonts/helveticacon.svg#HelveticaConthRegular') format('svg');
+}
+/* pagina general ---------------------------------------------------------------*/
+body{
+	padding:0px 10px;
+	margin:0px;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+
+
+#flechaIzq{
+	// float:left;
+	// border:0px;
+	// width: 77px;
+	// height: 76px;
+	// margin:260px 0px 0px 93px;
+	position: absolute;
+	top: 40%;
+	left: 10px;
+}
+#flechaDer{
+	// float:right;
+	// border:0px;
+	// margin:260px 93px 0px 0px;
+	position: absolute;
+	top: 40%;
+	right: 10px;
+}
+
+h1{
+	font-family:HelveticaConthRegular;
+	font-size:60px;
+	color:#FFF;
+	line-height:60px;
+}
+/* header ----------------------------------------------------------------*/
+
+
+nav{
+	height:21px;
+	font-family:miHelveticaNeueCondensed, sans-serif;
+	font-size:14px;
+	float:right;
+	// margin-right:100px;
+	margin-top:76px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+nav ul{
+	height:21px;
+	padding:0px;
+}
+nav li{
+	height:21px;
+	display:inline-block;
+	list-style:none;
+	text-align:left;
+	padding:0px;
+}
+
+nav a{
+	padding:2px 10px;
+	line-height:21px;
+	color:#FFF;
+	text-decoration:none;
+}
+nav a:hover{
+	background-color:#FBE82E;
+	color:#515962; 
+	text-decoration:none;
+}
+
+.seleccionado{
+	padding:0px 10px;
+	line-height:21px;
+	background-color:#FBE82E;
+	color:#515962;
+}
+
+
+/* Content ---------------------------------------------------------------*/
+article{
+	height:638px;
+	float:left;
+	margin:0 auto;
+}
+
+article a{
+	color:#FBE82E; 
+	font-family:miHelveticaNeueCondensed, sans-serif;
+	font-size:14px;
+	text-decoration:none;
+}
+
+/* Footer ------------------------------------------------------------------*/
+footer{
+	height:60px;
+	padding:0px;
+	margin:0 auto;
+	clear:both;
+	vertical-align:central;
+}
+#iconos{
+	width:300px;
+	// margin-left: 100px;
+	float:left;
+}
+
+
+#iconosplace{
+	width:300px;
+	margin-right: 100px;
+	float:right;
+	text-align:right;
+}
+
+#btnFotosFondo{
+	height:25px;
+	// margin-right:100px;
+	float:right;
+	text-align:right;
+}
+
+#btnFotosFondo img{
+	padding-left:5px;	
+}
+
+.creditos{
+	color:#FFFFFF; 
+	font-family:miHelveticaNeue, sans-serif;
+	font-size:12px;
+	margin-top:0;
+}
+
+/* About --------------------------------------------------------*/
+#about{
+	width:260px;
+	margin:0px;
+	padding:0px;
+	margin-left:190px;
+	margin-top:130px;
+	color:#FFF;
+	font-family:Arial;
+	font-size:14px;
+	position:relative;
+}
+
+#about p {
+	margin-top:-40px;
+	padding:0px;
+}
+/* Building Amenities ---------------------------------------------------*/
+#learn{
+	width:285px;
+	float:left;
+	margin:62px 0px 0px 0px;
+}
+
+#learn a{
+	color:#FBE82E; 
+	font-family:miHelveticaNeueCondensed, sans-serif;
+	font-size:14px;
+	text-decoration:none;
+}
+
+#mostrar{
+	display:block;
+	padding:0px;
+	margin:0px;
+}
+
+#miTexto {
+	width:260px;
+	display: none;
+	margin:0px;
+	padding:0px;
+	margin-left:20px;
+	color:#FFF;
+	font-family:Arial;
+	font-size:14px;
+	position:relative;
+}
+
+#miTexto p {
+	margin-top:-40px;
+	padding:0px;
+}
+
+/* Place  ------------------------------------------------------------*/
+#redSocial-custom{
+	width:360px;
+	height:610px;
+	position:relative;
+	float:right;
+	background:url(/img/background_twitter.jpg);
+	background-repeat:no-repeat;
+	background-position:right 20px;
+	margin-right:190px;
+}
+
+#twitter-custom {
+	width: 215px;
+	height: 473px;
+	margin-top: 63px;
+	margin-left: 131px;
+	border:none;
+}
+
+#place{
+	width:920px;
+	height:610px;
+	position:relative;
+	float:right;
+}
+#circuloAnimado{
+	width:26px;
+	height:26px;
+	position:absolute;
+	top:275px;
+	left:165px;
+}
+
+#cartelBuilding{
+	width:144px;
+	height:46px;
+	position:absolute;
+	top:217px;
+	left:111px;
+	visibility: hidden;
+}
+
+/* Visit  ------------------------------------------------------------*/
+#visit{
+	width:765px;
+	height:130px;
+	margin:0 auto;
+	margin-top:177px;
+}
+
+// PePe
+//////////////////////////////////////////////
+#the-content{
+	min-height: 550px;
+}
+#the-header{
+	margin-top: 20px;
+}
+#the-logo{
+	background: url('/img/logo_colony1209.png') no-repeat 0 0;
+	text-indent: -9999px;
+	width: 130px;
+	float: left;
+	a{
+		display: block;
+		width: 130px;
+		height:100px ;
+	}
+}
+.control-circle{
+	background: url('/img/circle.png') no-repeat 0 0;
+	display: block ;
+	height: 16px;
+	width: 16px;
+	float: right;
+	margin-left: 10px;
+	&.filled{
+		background: url('/img/circle_filled.png') no-repeat 0 0;
+	}
+}
+.body-text{
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+

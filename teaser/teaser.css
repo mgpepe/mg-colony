@@ -307,3 +307,22 @@ footer{
 		margin-top:20px;
 	}
 }
+
+.control-circle{
+	background: url('/img/circle.png') no-repeat 0 0;
+	display: block ;
+	height: 16px;
+	width: 16px;
+	float: right;
+	margin-left: 10px;
+}
+.control-circle.filled{
+	background: url('/img/circle_filled.png') no-repeat 0 0;
+	display: block ;
+	height: 16px;
+	width: 16px;
+	float: right;
+	margin-left: 10px;
+}
+
+

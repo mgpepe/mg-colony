@@ -35,13 +35,13 @@ function listar() {
 ?>	
 	<article>
 		<div id="flechaIzq">
-			<a href="#" onClick="atras();">
+			<a href="#" onClick="$.backstretch('prev'); return false;">
 				<img src="img/arrow_left.png" width="77" height="76" alt="left_arrow"  border="0">
 			</a>	
 		</div>
 
 		<div id="flechaDer">
-			<a href="#" onClick="adelante();">
+			<a href="#" onClick="$.backstretch('next'); return false;">
 				<img src="img/arrow_right.png" width="77" height="76" alt="right_arrow" border="0">
 			</a>	
 		</div>
@@ -70,14 +70,17 @@ function listar() {
 	<footer>
 		
 		<div id="btnFotosFondo">
-			<a href="#" onClick="CambiarImagen(0);"> <img src="img/circle_filled.png" width="16" height="16" alt="btn" name="ft0" border="0"></a>
-			<a href="#" onClick="CambiarImagen(1);"> <img src="img/circle.png" width="16" height="16" alt="btn" name="ft1" border="0"></a>
-			<a href="#" onClick="CambiarImagen(2);"> <img src="img/circle.png" width="16" height="16" alt="btn" name="ft2" border="0"></a>
-			<a href="#" onClick="CambiarImagen(3);"> <img src="img/circle.png" width="16" height="16" alt="btn" name="ft3" border="0"></a>
-			<a href="#" onClick="CambiarImagen(4);"> <img src="img/circle.png" width="16" height="16" alt="btn" name="ft4" border="0"></a>
-			<a href="#" onClick="CambiarImagen(5);"> <img src="img/circle.png" width="16" height="16" alt="btn" name="ft5" border="0"></a>
-			<a href="#" onClick="CambiarImagen(6);"> <img src="img/circle.png" width="16" height="16" alt="btn" name="ft6" border="0"></a>
-			<a href="#" onClick="CambiarImagen(7);"> <img src="img/circle.png" width="16" height="16" alt="btn" name="ft7" border="0"></a>
+			<a id="circle-10" class="control-circle" href="#" onClick="$.backstretch('show',10);return false;">  </a>
+                    <a id="circle-9" class="control-circle" href="#" onClick="$.backstretch('show',9); return false;">  </a>
+                    <a id="circle-8" class="control-circle" href="#" onClick="$.backstretch('show',8); return false;">  </a>
+                    <a id="circle-7" class="control-circle" href="#" onClick="$.backstretch('show',7); return false;">  </a>
+                    <a id="circle-6" class="control-circle" href="#" onClick="$.backstretch('show',6); return false;">  </a>
+                    <a id="circle-5" class="control-circle" href="#" onClick="$.backstretch('show',5); return false;">  </a>
+                    <a id="circle-4" class="control-circle" href="#" onClick="$.backstretch('show',4); return false;">  </a>
+                    <a id="circle-3" class="control-circle" href="#" onClick="$.backstretch('show',3); return false;">  </a>
+                    <a id="circle-2" class="control-circle" href="#" onClick="$.backstretch('show',2); return false;">  </a>
+                    <a id="circle-1" class="control-circle" href="#" onClick="$.backstretch('show',1); return false;">  </a>
+                    <a id="circle-0" class="control-circle" href="#" onClick="$.backstretch('show',0); return false;"> </a>
 			
 			<p id="picture" class="creditos">Photograph by Travis Dubreuil - Bushwick Resident</p>
 			<p id="texto" class="creditos">Picture</p>
@@ -99,13 +102,13 @@ function gracias() {
 ?>	
 	<article>
 		<div id="flechaIzq">
-			<a href="#" onClick="atras();">
+			<a href="#" onClick="$.backstretch('prev'); return false;">
 				<img src="img/arrow_left.png" width="77" height="76" alt="left_arrow"  border="0">
 			</a>	
 		</div>
 
 		<div id="flechaDer">
-			<a href="#" onClick="adelante();">
+			<a href="#" onClick="$.backstretch('next'); return false;">
 				<img src="img/arrow_right.png" width="77" height="76" alt="right_arrow" border="0">
 			</a>	
 		</div>
@@ -130,14 +133,17 @@ function gracias() {
 	<footer>
 		
 		<div id="btnFotosFondo">
-			<a href="#" onClick="CambiarImagen(0);"> <img src="img/circle_filled.png" width="16" height="16" alt="btn" name="ft0" border="0"></a>
-			<a href="#" onClick="CambiarImagen(1);"> <img src="img/circle.png" width="16" height="16" alt="btn" name="ft1" border="0"></a>
-			<a href="#" onClick="CambiarImagen(2);"> <img src="img/circle.png" width="16" height="16" alt="btn" name="ft2" border="0"></a>
-			<a href="#" onClick="CambiarImagen(3);"> <img src="img/circle.png" width="16" height="16" alt="btn" name="ft3" border="0"></a>
-			<a href="#" onClick="CambiarImagen(4);"> <img src="img/circle.png" width="16" height="16" alt="btn" name="ft4" border="0"></a>
-			<a href="#" onClick="CambiarImagen(5);"> <img src="img/circle.png" width="16" height="16" alt="btn" name="ft5" border="0"></a>
-			<a href="#" onClick="CambiarImagen(6);"> <img src="img/circle.png" width="16" height="16" alt="btn" name="ft6" border="0"></a>
-			<a href="#" onClick="CambiarImagen(7);"> <img src="img/circle.png" width="16" height="16" alt="btn" name="ft7" border="0"></a>
+			<a id="circle-10" class="control-circle" href="#" onClick="$.backstretch('show',10);return false;">  </a>
+                    <a id="circle-9" class="control-circle" href="#" onClick="$.backstretch('show',9); return false;">  </a>
+                    <a id="circle-8" class="control-circle" href="#" onClick="$.backstretch('show',8); return false;">  </a>
+                    <a id="circle-7" class="control-circle" href="#" onClick="$.backstretch('show',7); return false;">  </a>
+                    <a id="circle-6" class="control-circle" href="#" onClick="$.backstretch('show',6); return false;">  </a>
+                    <a id="circle-5" class="control-circle" href="#" onClick="$.backstretch('show',5); return false;">  </a>
+                    <a id="circle-4" class="control-circle" href="#" onClick="$.backstretch('show',4); return false;">  </a>
+                    <a id="circle-3" class="control-circle" href="#" onClick="$.backstretch('show',3); return false;">  </a>
+                    <a id="circle-2" class="control-circle" href="#" onClick="$.backstretch('show',2); return false;">  </a>
+                    <a id="circle-1" class="control-circle" href="#" onClick="$.backstretch('show',1); return false;">  </a>
+                    <a id="circle-0" class="control-circle" href="#" onClick="$.backstretch('show',0); return false;"> </a>
 			
 			<p id="picture" class="creditos">Photograph by Travis Dubreuil - Bushwick Resident</p>
 			<p id="texto" class="creditos">Picture</p>
@@ -152,6 +158,8 @@ function gracias() {
 		</div>
         
 	</footer>
+
+
 <?php
 }
 
@@ -222,7 +230,7 @@ function correo($mensaje) {
 	$mail->IsHTML(true);
 	$mail->Body = $mensaje;
 	
-	$mail->AddAddress("colony@aptsandlofts.com", "colony@aptsandlofts.com");
+	$mail->AddAddress("colony@aptsandlofts.com");
 				
 	if(!$mail->Send()) {
 		// no pudo mandar el msj
