@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- Reseteamos el view port a una escala inicial de 1 -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<title>Building Amenities - Colony 1209</title>
-<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="/css/styles.css" />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="/js/jquery.backstretch.min.js"></script>
-</head>
+<?php $page_title = 'Building Amenities - Colony 1209'; ?>
+<?php include ('includes/header.php'); ?>
 
-<body>
-    <div class="container">
+    <div class="container" id="xpcontent">
+        <?php include ('includes/flechas.php'); ?>
+
         <div id="the-header" class="row">
             <div class="span2">
                 <div id="the-logo">
@@ -61,7 +52,17 @@
                 
                 
                 <div id="btnFotosFondo">
-                    
+                    <a id="circle-10" class="control-circle" href="#" onClick="$.backstretch('show',10);return false;">  </a>
+                    <a id="circle-9" class="control-circle" href="#" onClick="$.backstretch('show',9); return false;">  </a>
+                    <a id="circle-8" class="control-circle" href="#" onClick="$.backstretch('show',8); return false;">  </a>
+                    <a id="circle-7" class="control-circle" href="#" onClick="$.backstretch('show',7); return false;">  </a>
+                    <a id="circle-6" class="control-circle" href="#" onClick="$.backstretch('show',6); return false;">  </a>
+                    <a id="circle-5" class="control-circle" href="#" onClick="$.backstretch('show',5); return false;">  </a>
+                    <a id="circle-4" class="control-circle" href="#" onClick="$.backstretch('show',4); return false;">  </a>
+                    <a id="circle-3" class="control-circle" href="#" onClick="$.backstretch('show',3); return false;">  </a>
+                    <a id="circle-2" class="control-circle" href="#" onClick="$.backstretch('show',2); return false;">  </a>
+                    <a id="circle-1" class="control-circle" href="#" onClick="$.backstretch('show',1); return false;">  </a>
+                    <a id="circle-0" class="control-circle" href="#" onClick="$.backstretch('show',0); return false;"> </a>
                     
                     <p id="texto" class="creditos">This is a picture taken by somebody</p>
                 </div>
@@ -69,32 +70,31 @@
         </div>
     </div>
 
-<!-- <div id="flechaIzq">
-    <a href="#" onClick="$.backstretch('prev'); return false;">
-        <img src="img/arrow_left.png" width="77" height="76" alt="left_arrow">
-    </a>    
-</div>
-<div id="flechaDer">
-    <a href="#" onClick="$.backstretch('next'); return false;">
-        <img src="img/arrow_right.png" width="77" height="76" alt="right_arrow">
-    </a>    
-</div> -->
 
-			     	
-            
-        
 
-        
-        <footer>
-        	
-		</footer>
-    
-<div id="slideshow">
 
-</div>
 <script>
   // To attach Backstrech as the body's background
-  $.backstretch("/img/images/1.jpg" );
+  $.backstretch([
+    "/img/images/1.jpg",
+    "/img/images/2.jpg",
+    "/img/images/3.jpg",
+    "/img/images/4.jpg",
+    "/img/images/5.jpg",
+    "/img/images/6.jpg",
+    "/img/images/7.jpg",
+    "/img/images/8.jpg",
+    "/img/images/9.jpg",   
+    "/img/images/10.jpg",   
+    "/img/images/11.jpg"   
+  ], {duration: 5000, fade:500});
+var instance = $('body').data('backstretch');
+$(window).on("backstretch.after", function (e, instance, index) {
+    unfill_all();
+    $('#circle-'+index).addClass('filled');
+});
+function unfill_all(){
+    $('.control-circle').removeClass('filled');
+}
 </script>
-</body>
-</html>
+<?php include ('includes/footer.php'); ?>

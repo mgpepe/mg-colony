@@ -1,17 +1,9 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- Reseteamos el view port a una escala inicial de 1 -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<title>Colony 1209</title>
-<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="/css/styles.css" />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="/js/jquery.backstretch.min.js"></script>
-</head>
+<?php $page_title = 'About Colony'; ?>
+<?php include ('includes/header.php'); ?>
 
-<body>
+
+
+
     <div class="container">
         <div id="the-header" class="row">
             <div class="span2">
@@ -95,5 +87,4 @@
   // To attach Backstrech as the body's background
   $.backstretch("/img/images/1.jpg" );
 </script>
-</body>
-</html>
+<?php include ('includes/footer.php');
